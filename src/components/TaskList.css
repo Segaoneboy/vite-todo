@@ -1,0 +1,78 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.add_div{
+    display: flex;
+    background-color: #ffffff;
+    margin: 5vh 5vh 0 5vh;
+    padding: 3vh;
+    border-radius: 1vh 1vh 0 0;
+    box-shadow:0 1px 0 #e1dfdd;
+}
+.add_div2{
+    background-color: #faf9f8;
+    margin: 0 5vh 5vh 5vh;
+    padding: 2vh;
+    border-radius: 0 0 1vh 1vh;
+    box-shadow: 0 2px 1px #e4e3e2;
+}
+.radio{
+    margin: 1vh 2vh 1vh 1vh;
+}
+.add_input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    box-shadow: none;
+    overflow: hidden;
+    white-space: nowrap;
+    resize: none;
+}
+.add_input::placeholder{
+    color: #ff8d37;
+}
+.add_input:focus::placeholder{
+    color: #292827;
+}
+.add_btn_disactiv{
+    background-color: #fdfdfd;
+    display: block;
+    border: 1px solid #e1dfdd;
+    padding: 1vh;
+    color: #a19f9d;
+
+}
+.add_btn_activ{
+    background-color: #fdfdfd;
+    display: block;
+    border: 1px solid #e1dfdd;
+    padding: 1vh;
+    color: #ff8d37;
+
+}
+.task{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    margin: 5vh 5vh 0 5vh;
+    padding: 1.5vh;
+    border-radius: 1vh;
+    box-shadow:0 1px 0 #e1dfdd;
+}
+.del_btn{
+    background-color: #ff8d37;
+    display: block;
+    font-size: 14px;
+    border: 1px solid #e1dfdd;
+    border-radius: 5px;
+    padding: 0.5vh;
+    color: #fdfdfd;
+}
+.task_li{
+    list-style-type: none;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
